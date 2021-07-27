@@ -3,7 +3,7 @@ import requests
 import kakao_utils
 
 KAKAO_TOKEN_FILENAME = "res/kakao_message/kakao_token.json"
-KAKAO_APP_KEY = "6148d6e7b45b3f0b0cc0b38f6739a45b"
+KAKAO_APP_KEY = "My REST Key"
 
 tokens = kakao_utils.update_tokens(KAKAO_APP_KEY, KAKAO_TOKEN_FILENAME)
 # 업데이트한 토큰 저장하기
