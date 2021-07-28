@@ -14,7 +14,7 @@ def save_image(image_url, file_name):
 url = "https://dapi.kakao.com/v2/search/image"
 
 headers = {
-    "Authorization" : "KakaoAK 6148d6e7b45b3f0b0cc0b38f6739a45b"
+    "Authorization" : "KakaoAK REST Key"
 }
 
 data = {
